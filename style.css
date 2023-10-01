@@ -1,0 +1,177 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #CDCACA;
+    font-size: 16px;
+    color: #0c0707;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    border-bottom: 1px solid #767272;
+}
+
+header {
+    background-color: #767272;
+    box-shadow: 0 2px 4px rgba(38, 0, 255, 0.1);
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    font-weight: bold;
+    color: #000000;
+}
+
+.hero {
+    background-color: rgba(255, 255, 255, 0.33);
+    background-image: url('hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Profile picture styles */
+.profile-picture {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 230px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Call-to-action button styles */
+.cta-button {
+    background-color: #767272;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #0062cc;
+}
+
+.feedback {
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+
+.feedback blockquote {
+    border-left: 5px solid #050505;
+    margin: 0 0 30px;
+    padding: 20px;
+}
+
+.feedback blockquote p {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.feedback blockquote footer {
+    font-size: 16px;
+    font-style: italic;
+}
+
+p {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #767272;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact p {
+    margin: 0 10px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #f1c40f;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: #8b0000;
+    background-color: #000;
+    transition: 0.2s;
+}
+
+.welcome-banner {
+    width: 900px; 
+    height: 240px; 
+}
+
+

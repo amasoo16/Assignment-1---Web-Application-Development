@@ -1,0 +1,58 @@
+<!-- Student:Abdullah Masood
+* Student ID: 301342047
+* Date: October 1,2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <section id="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> amasoo16@my.centennialcollege.ca</p>
+            <p><strong>Phone:</strong> 514-333-0012</p>
+            <p><strong>Address:</strong> 416 North York, Toronto Ontario</p>
+        </div>
+        <div class="contact-form">
+            <h2>Send me a message</h2>
+            <form action="process_form.php" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="contact-number">Contact Number:</label>
+                <input type="tel" id="contact-number" name="contact-number" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
